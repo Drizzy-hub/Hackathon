@@ -1,0 +1,31 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+.pytest_cache/
+
+# Local env files
+.env.local
+.env.*.local
+
+# Build artefacts
+dist/
+build/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Evaluation output
+evaluation/report.json
+
+# Logs
+*.log

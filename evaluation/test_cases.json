@@ -1,0 +1,114 @@
+{
+  "description": "12 image engineering evaluation set × 4 languages = 48 initial combinations. This is a small, documented test set for the hackathon MVP, not a statistically representative benchmark.",
+  "languages": ["en", "fr", "es", "yo"],
+  "cases": [
+    {
+      "id": "doc-01",
+      "file": "demo/sample-images/doc-01.jpg",
+      "category": "documents_and_notices",
+      "expected_scene_type": "university_notice",
+      "must_mention": ["registration deadline", "event location"],
+      "follow_up_question": "What is the registration deadline?",
+      "expected_answer_contains": ["November"]
+    },
+    {
+      "id": "doc-02",
+      "file": "demo/sample-images/doc-02.jpg",
+      "category": "documents_and_notices",
+      "expected_scene_type": "printed_document",
+      "must_mention": [],
+      "follow_up_question": "What is the main heading?",
+      "expected_answer_contains": []
+    },
+    {
+      "id": "doc-03",
+      "file": "demo/sample-images/doc-03.jpg",
+      "category": "documents_and_notices",
+      "expected_scene_type": "flyer",
+      "must_mention": [],
+      "follow_up_question": "Is there a contact phone number?",
+      "expected_answer_contains": []
+    },
+    {
+      "id": "obj-01",
+      "file": "demo/sample-images/obj-01.jpg",
+      "category": "everyday_objects",
+      "expected_scene_type": "indoor_object",
+      "must_mention": [],
+      "follow_up_question": "What color is the object in the foreground?",
+      "expected_answer_contains": []
+    },
+    {
+      "id": "obj-02",
+      "file": "demo/sample-images/obj-02.jpg",
+      "category": "everyday_objects",
+      "expected_scene_type": "indoor_object",
+      "must_mention": [],
+      "follow_up_question": "What is on the table?",
+      "expected_answer_contains": []
+    },
+    {
+      "id": "obj-03",
+      "file": "demo/sample-images/obj-03.jpg",
+      "category": "everyday_objects",
+      "expected_scene_type": "indoor_object",
+      "must_mention": [],
+      "follow_up_question": "How many items are visible?",
+      "expected_answer_contains": []
+    },
+    {
+      "id": "scene-01",
+      "file": "demo/sample-images/scene-01.jpg",
+      "category": "people_and_scenes",
+      "expected_scene_type": "street_scene",
+      "must_mention": [],
+      "follow_up_question": "What are the people doing?",
+      "expected_answer_contains": []
+    },
+    {
+      "id": "scene-02",
+      "file": "demo/sample-images/scene-02.jpg",
+      "category": "people_and_scenes",
+      "expected_scene_type": "indoor_scene",
+      "must_mention": [],
+      "follow_up_question": "How many people are in the image?",
+      "expected_answer_contains": []
+    },
+    {
+      "id": "scene-03",
+      "file": "demo/sample-images/scene-03.jpg",
+      "category": "people_and_scenes",
+      "expected_scene_type": "outdoor_scene",
+      "must_mention": [],
+      "follow_up_question": "What is the weather like?",
+      "expected_answer_contains": []
+    },
+    {
+      "id": "prod-01",
+      "file": "demo/sample-images/prod-01.jpg",
+      "category": "products_and_menus",
+      "expected_scene_type": "menu",
+      "must_mention": [],
+      "follow_up_question": "What is the price of the first item?",
+      "expected_answer_contains": []
+    },
+    {
+      "id": "prod-02",
+      "file": "demo/sample-images/prod-02.jpg",
+      "category": "products_and_menus",
+      "expected_scene_type": "product_label",
+      "must_mention": [],
+      "follow_up_question": "What is the product name?",
+      "expected_answer_contains": []
+    },
+    {
+      "id": "prod-03",
+      "file": "demo/sample-images/prod-03.jpg",
+      "category": "products_and_menus",
+      "expected_scene_type": "product_label",
+      "must_mention": [],
+      "follow_up_question": "Is there an allergen warning?",
+      "expected_answer_contains": []
+    }
+  ]
+}
